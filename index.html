@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Netto</title>
+<meta name="description" content="Netto: inventory, sales and profit for independent resellers.">
+<style>
+  :root {
+    --bg: #F4F7F5; --surface: #FFFFFF; --ink: #0F1E33; --muted: #566170; --green: #0B7A55; --border: #DDE3E0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0A1422; --surface: #13233A; --ink: #EEF2F0; --muted: #A7B1BC; --green: #3CC48D; --border: #24364F; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  header svg { width: 28px; height: 28px; }
+  header strong { font-size: 22px; letter-spacing: -.02em; }
+  nav { display: flex; gap: 8px; margin: 16px 0 24px; }
+  nav a { padding: 6px 14px; border: 1px solid var(--border); border-radius: 999px; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; background: var(--surface); }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 28px 0 6px; }
+  p, li { color: var(--ink); }
+  .muted { color: var(--muted); font-size: 14px; }
+  .summary { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: 12px; padding: 14px 18px; margin: 18px 0; }
+  a { color: var(--green); }
+  section + section { margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); }
+  ul { padding-left: 22px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 89 89" aria-hidden="true"><rect x="0" y="34" width="21" height="55" fill="currentColor"/><polygon points="0,34 21,34 89,89 68,89" fill="currentColor"/><rect x="68" y="0" width="21" height="89" fill="#0B7A55"/></svg>
+    <strong>netto</strong>
+  </header>
+  <h1>Know what you have, what you sold, and what you made.</h1>
+  <p>Netto tracks inventory, sales, pay-later customers and profit for independent resellers. In English and Spanish, and your data stays on your phone.</p>
+  <p lang="es" class="muted">Netto lleva tu inventario, ventas, fiado y ganancias. En inglés y español, y tus datos se quedan en tu teléfono.</p>
+  <nav aria-label="Links">
+    <a href="support/">Support · Soporte</a>
+    <a href="privacy/">Privacy · Privacidad</a>
+  </nav>
+</main>
+</body>
+</html>
